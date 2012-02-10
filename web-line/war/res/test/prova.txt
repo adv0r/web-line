@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>
+	<!--#WPL_ID='provaTitle'-->
+	</title>
+</head>
+
+<body>
+	Facebook Like Button :
+	<!--#WPL_ID='provaFbLike'-->
+	
+    <!--#WPL_ID='provaIdDiv'-->
+	<div id='provaIdDiv' style=''> <!--STOP-->
+	banana
+	</div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+
+
+ <!-- Request Handler -->
+  <servlet>
+    <servlet-name>requestServlet</servlet-name>
+    <servlet-class>se.bth.wpl.server.RequestHandler</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>requestServlet</servlet-name>
+    <url-pattern>/requestProduct</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+    <!-- Test Zip Creation -->
+  <servlet>
+    <servlet-name>testZip</servlet-name>
+    <servlet-class>se.bth.wpl.tests.TestServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>testZip</servlet-name>
+    <url-pattern>/testZip</url-pattern>
+  </servlet-mapping>
+   
+     <!-- Test Zip Creation -->
+  <servlet>
+    <servlet-name>testZip2</servlet-name>
+    <servlet-class>se.bth.wpl.tests.TestServlet2</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>testZip2</servlet-name>
+    <url-pattern>/testZip2</url-pattern>
+  </servlet-mapping>
+      
+       <!-- Test Zip Creation -->
+  <servlet>
+    <servlet-name>testZip3</servlet-name>
+    <servlet-class>se.bth.wpl.tests.TestServlet3</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>testZip3</servlet-name>
+    <url-pattern>/testZip3</url-pattern>
+  </servlet-mapping>
+  
+  
+   <!-- Test Zip Creation -->
+  <servlet>
+    <servlet-name>testParser</servlet-name>
+    <servlet-class>se.bth.wpl.tests.TestParser</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>testParser</servlet-name>
+    <url-pattern>/testParser</url-pattern>
+  </servlet-mapping>
+   
+   <!-- Test XML Creation -->
+  <servlet>
+    <servlet-name>testXML</servlet-name>
+    <servlet-class>se.bth.wpl.tests.TestSiteMap</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>testXML</servlet-name>
+    <url-pattern>/testXML</url-pattern>
+  </servlet-mapping>
+  
+   <!-- Test BlackBoard  -->
+  <servlet>
+    <servlet-name>testBB</servlet-name>
+    <servlet-class>se.bth.wpl.tests.TestBlackBoard</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>testBB</servlet-name>
+    <url-pattern>/testBB</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Default page -->
+  <welcome-file-list>
+    <welcome-file>jsp/index.jsp</welcome-file>
+  </welcome-file-list>
+  
+
+
+</web-app>

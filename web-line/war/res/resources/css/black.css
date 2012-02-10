@@ -1,0 +1,66 @@
+/* ************************************************************************* */
+/* Black
+/* ************************************************************************* */
+
+
+/*---------------------------------------------------------------*/
+/* HEADER 
+/*---------------------------------------------------------------*/
+#header .header-holder {background:#0F0F10 url(../images/black/bg-header-holder.jpg) 0 0 repeat-x !important;}
+.big-banner #header .header-holder {background:#0F0F10 url(../images/black/bg-big-header-holder.png) 0 0 repeat-x !important;}
+.top-block {background:#000 !important;}
+
+
+
+/*---------------------------------------------------------------*/
+/* FOOTER
+/*---------------------------------------------------------------*/
+#footer {background:#0F0F10 url(../images/black/bg-footer.jpg) repeat-x !important;}
+#footer_bottom {background:#000 url(../images/black/bg-footer-bottom.jpg) repeat-x !important;color: #868686 !important;}
+
+
+
+/*---------------------------------------------------------------*/
+/* NAVIGATION
+/*---------------------------------------------------------------*/
+#menu-main-nav li strong {color:#FFF !important;}
+#menu-main-nav a span {color:#B4B4B4 !important;} /* link color parent level  */
+#menu-main-nav a:hover span,
+#menu-main-nav li.current_page_item a span,
+#menu-main-nav li.current_page_parent a span,
+#menu-main-nav li.current-page-ancestor a span,
+#menu-main-nav li {background:url(../images/_global/seperator-main-nav-light.png) 0 50% no-repeat !important;}
+#sub_nav ul a:hover,
+#sub_nav ul li.current_page_item a {background:url(../images/black/sprite.png) 0px 0px no-repeat;}
+
+/*---------------------------------------------------------------*/
+/* LINKS 
+/*---------------------------------------------------------------*/
+.top-block, .top-block a, #header .sub-nav li, #header .sub-nav2 li {color:#999 !important;}
+.top-block a:hover {color:#FFF !important;}
+.top-block .sub-nav ul li, .top-block .sub-nav2 ul li {background:url(../images/_global/separator-toolbar.png) 0 50% no-repeat !important;}
+.footer-holder a {color:#B4B4B4 !important;}
+.footer-holder a:hover {color:#FFF !important;}
+
+
+/*---------------------------------------------------------------*/
+/* TYPOGRAPHY
+/*---------------------------------------------------------------*/
+#footer h3 {border-bottom: 1px solid #54555E !important;}
+#footer {color: #999 !important;}
+#footer_bottom {color: #999 !important;}
+
+
+/*---------------------------------------------------------------*/
+/* LAYOUT
+/*---------------------------------------------------------------*/
+#main .tools {background:url(../images/black/bg-tools-c.jpg) repeat-y;color:#fff;}
+#main .tools .holder {background:url(../images/black/bg-tools-t.jpg) no-repeat;}
+#main .tools .frame {background:url(../images/black/bg-tools-b.jpg) 0 100% no-repeat;height:1%;overflow:hidden;padding:18px 22px 0 20px;}
+
+/*---------------------------------------------------------------*/
+/* BUTTONS
+/*---------------------------------------------------------------*/
+
+.small_color_button, .small_color_button span {background-image: url(../images/black/bg-buttons-sprite-black.png) !important;}
+

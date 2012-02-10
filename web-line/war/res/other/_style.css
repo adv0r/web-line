@@ -1,0 +1,286 @@
+
+/* ---------------------- 
+Stylesheet Guide
+-------------------------
+
+ 01. GLOBAL STYLES
+ 
+ 02. LAYOUTa
+ 	1. GENERAL STRUCTURE
+ 	2. CONTENT AREA
+	3. FOOTER
+	4. SIDEBAR
+
+ 03. NAVIGATION
+ 	
+	
+04. LINKS
+	1. GENERAL LINKS
+	2. CUSTOM BUTTONS
+	
+05. LISTS
+	1. GENERAL LISTS
+	
+	
+06. TYPOGRAPHY
+	1. GENERAL TYPOGRAPHY
+	2. @FONT-FACE
+	3. FOOTER
+		
+07. IMAGES	
+
+08. OTHERS
+	1. DEFAULT STYLES
+	2. SOCIAL MEDIA
+
+
+09. IE SPECIFIC
+
+ */
+
+
+
+
+/* *********************************************************************************** */
+/* 01. GLOBAL
+/* *********************************************************************************** */
+
+* {font-size: 100.01%;}
+html {font-size: 62.5%;margin:0;padding:0;}
+body {margin:0;background:#f4f4f2;font:1.2em/19px <!--#WPL_ID='cssFont1'-->Arial,Verdana,Times<!--STOP-->;color:#666;min-width:800px;}
+
+
+/* *********************************************************************************** */
+/* 02. LAYOUT
+/* *********************************************************************************** */
+
+/*---------------------------------------------------------------*/
+/* 1. GENERAL LAYOUT
+/*---------------------------------------------------------------*/
+#wrapper {width:100%;display:table;}
+#wrapper #header {display:table-header-group;height:}
+.top-block .top-holder {width:800px;margin:0 auto;font-size:10px;padding:4px 0;min-height:4px;height:auto;}
+.top-block .top-holder:after {clear:both;display:block;content:"";}
+#header .rays {background: url(../images/_global/rays.png) 50% 0 no-repeat;}
+#header .header-area {width:800px;margin:0 auto;padding:25px 0 33px 0;}
+#header .header-area:after {clear:both;display:block;content:"";}
+#main {background:url(../images/_global/bg-main.gif) repeat-x;display:table-footer-group;position:relative;width:100%;}
+#main .main-area {width:800px;margin:0 auto;padding:43px 0 5px 0;}
+.tools .place {float:right;}
+.main-holder {height:1%;overflow:hidden;padding-top:45px;}
+
+
+
+/*---------------------------------------------------------------*/
+/* 2. CONTENT AREA
+/*---------------------------------------------------------------*/
+#content {float:left;margin-left: 20px;}
+.content_left_sidebar2 {float: right !important;}
+.content_right_sidebar {width: 45%}
+.content_without_sidebar {width: 70%}
+#content .one_third {float:left;width:110px;margin-right:10px;}
+#content .one_third_last {float:right;width:110px;margin:0;}
+#content .one_third_withoutside {float:left;width:175px;margin-right:10px;}
+#content .one_third_last_withoutside {float:right;width:175px;margin:0;}
+#content .one_full_dyna {float:left;width:98%;margin:0px;}
+#content .one_half_dyna {float:left;width:55%;margin-right:10px;}
+#content .one_half_dyna_last{float:right;width:40%;margin:0px;}
+
+/*---------------------------------------------------------------*/
+/* 3. FOOTER
+/*---------------------------------------------------------------*/
+#footer {width:100%;position:relative;padding-top: 40px; padding-bottom:20px;}
+#footer .footer-area {width:800px;margin:0 auto;position:relative;}
+#footer .footer-wrapper {width:800px;overflow:hidden;}
+#footer .footer-holder {width:100%;overflow:hidden;padding:25px 0 25px 6px;}
+#footer .box {width:333px;float:left;}
+#footer_bottom {width: 100%;min-height:89px;height:auto;}
+#foot_left {float: left;width:440px;}
+#foot_left .textwidget {margin-top:-18px;}
+#foot_right {float: right;width:520px;text-align: right;}
+.info {width:800px;margin:0 auto;font-size:11px;overflow:hidden;padding:34px 0 0 8px;position:relative;}
+#footer .footer_post {padding: 2px 0 16px 0;}
+
+
+/*---------------------------------------------------------------*/
+/* 4. SIDEBAR
+/*---------------------------------------------------------------*/
+#sidebar {background:url(../images/_global/bg-sidebar.gif) 0 0 repeat-y;padding-bottom:35px;float: right;width: 173px;padding: 0 0 0 15px;}
+.left_sidebar {float: left !important;background:url(../images/_global/bg-sidebar.gif) top right repeat-y !important;padding: 0 25px 0 0 !important;margin: 0 0 0 25px;}
+
+
+
+/* *********************************************************************************** */
+/* 03. NAVIGATION
+/* *********************************************************************************** */
+
+
+/*---------------------------------------------------------------*/
+/* 2.Menu
+/*---------------------------------------------------------------*/
+#sub_nav {float: left;width:200px;float:left;background:url(../images/_global/bg-sidebar.gif) 186px 0 repeat-y;padding-bottom:65px;overflow:hidden;}
+#sub_nav ul a {display:block;background:url(../images/_global/separator3.gif) 0 100% repeat-x;padding:4px 0 8px 20px;height:1%;position:relative;margin:0 13px 0 0;}
+#sub_nav ul a:hover,
+#sub_nav ul li.current_page_item a {margin-right:0;color:#fff;text-decoration:none;}
+#sub_nav ul {margin:0;padding:0;list-style:none;}
+#sub_nav ul li {vertical-align:top;height:1%;}
+
+/* *********************************************************************************** */
+/* 04. LINKS
+/* *********************************************************************************** */
+/*---------------------------------------------------------------*/
+/* 1. General Links
+/*---------------------------------------------------------------*/
+a {color:#666;outline: none;}
+#menu-main-nav a, #sub_nav a, #wrapper .tabset a {text-decoration: none;}
+a:hover { text-decoration:underline;}
+#header .logo {float:left;margin-left:22px;outline: none;}
+#header .sub-nav a, #header .sub-nav2 a {color: #575C60;text-decoration: none;}
+#header .sub-nav a:hover, #header .sub-nav2 a:hover {color: #8B949A;}
+#header .sub-nav li, #header .sub-nav2 li {color: #575C60;}
+.footer-holder a, #footer_bottom a {text-decoration: none;color:#575C60;}
+.footer-holder a:hover, #footer_bottom a:hover {color:#8B949A;}
+#footer_bottom a {text-decoration: underline;}
+#footer_bottom a{text-decoration:none;}
+
+#footer h3 a {color: #FFF !important;}
+
+
+
+
+
+/*---------------------------------------------------------------*/
+/* 2. BUTTONS
+/*---------------------------------------------------------------*/
+.ka_button, .ka_button:hover {text-decoration: none;border: 0;display:inline-block;letter-spacing:1.2px;text-transform: uppercase;color: #DDD !important;}
+.ka_button span {display:block;}
+
+.small_button{margin:5px 10px 5px 0;padding:0 21px 0 0;font-size: .9em;background: transparent url(../images/_global/bg-buttons-sprite.png) 100% -43px no-repeat scroll;color: #F4F4F2;}
+.small_button span{margin:0;padding:16px 0 17px 21px;line-height: 10px;background:transparent url(../images/_global/bg-buttons-sprite.png) 0 0 no-repeat scroll;}
+
+
+/* *********************************************************************************** */
+/* 06. TYPOGRAPHY
+/* *********************************************************************************** */
+
+/*---------------------------------------------------------------*/
+/* 1. GENERAL TYPOGRAPHY
+/*---------------------------------------------------------------*/
+#main .frame h1 {padding-bottom: 15px !important;font-size:24px !important;float:left;margin:3px 0 0 0 !important;color: #FFF;}
+#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {padding-bottom: 10px;font-weight: normal;margin:0;color: #222;}
+#main h1 {font-size:2.1em;}
+#main h2 {font-size:1.9em;}
+#main h3 {font-size:1.7em;}
+#main h4 {font-size:1.5em;}
+#main h5 {font-size:1.3em;}
+#main h6 {font-size:.9em;color: #222;text-transform: uppercase;font-weight: 600;letter-spacing: 1px;padding-bottom: 5px !important;}
+#sidebar h2 {padding-bottom: 5px;font-size:10px;}
+#content p {margin:0;padding:0 0 20px 0;}
+p strong {color: #555;}
+
+
+
+/*---------------------------------------------------------------*/
+/* 2. @FONT-FACE
+/*---------------------------------------------------------------*/
+.main-holder h1, .main-holder h2, .main-holder h3, .main-holder h4, .main-holder h5 {font-family:<!--#WPL_ID='cssFont2'-->Arial,Verdana,Times<!--STOP-->}
+
+
+/*---------------------------------------------------------------*/
+/* 4. FOOTER
+/*---------------------------------------------------------------*/
+#footer p, #footer_bottom p {margin:0;}
+#footer, #footer_bottom {color: #575C60;}
+#footer h3 {text-transform:uppercase;color:#fff;display:block;font-size:13px;letter-spacing: 0.5px;border-bottom: 1px solid #3E4055;padding-bottom: 7px;margin-bottom: 16px;font-weight: bold;}
+
+
+
+
+/* *********************************************************************************** */
+/* 07. Image
+/* *********************************************************************************** */
+
+
+/*---------------------------------------------------------------*/
+/* 1. GENERAL
+/*---------------------------------------------------------------*/
+img, img a {border:0;}
+.attachment-fadeIn, .attachment-post-thumbnail {display:none;}
+img a, a img {cursor:pointer;}
+
+
+/* *********************************************************************************** */
+/* 08. Others
+/* *********************************************************************************** */
+
+
+/*---------------------------------------------------------------*/
+/* 1. DEFAULT STYLES
+/*---------------------------------------------------------------*/
+#sidebar h3 {color: #222;font-size:1.8em;padding-bottom: 10px;}
+.sidebar-widget {margin-bottom: 34px;padding-bottom: 34px;background: url(../images/_global/separator3.gif) 0 100% repeat-x;width:100%;float:left;}
+#sidebar ul {margin:-7px 0 0 0;padding:0;list-style: none;}
+#sidebar a {text-decoration: none;}
+#sidebar a:hover {text-decoration: underline;}
+#sidebar li {padding-bottom: 2px;}
+
+/*---------------------------------------------------------------*/
+/* 2. SOCIAL MEDIA
+/*---------------------------------------------------------------*/
+.social_icons {list-style: none;}
+.social_icons li {float: left;width:32px;height:32px;margin:0 12px 12px 0;padding:0;}
+.social_icons a {float: left;width:32px;height:32px;display:block;border:0;text-decoration:none;outline:none;text-indent:-9999em;}
+.social_icons .twitter {background:url(../images/_global/social-icons/twitter.png) 0 0 no-repeat;}
+.social_icons .linkedin {background:url(../images/_global/social-icons/linkedin.png) 0 0 no-repeat;}
+.social_icons .googleplus {background:url(../images/_global/social-icons/googleplus.png) 0 0 no-repeat;}
+
+
+
+#sidebar .sidebar-widget .social_icons, #sidebar .social_icons {float: none !important;padding-top: 10px;}
+#sidebar .sidebar-widget .social_icons li, #sidebar .social_icons li {padding:0 !important;background-image:none !important;}
+
+#content .social_icons {padding-left:0;}
+
+
+
+/* *********************************************************************************** */
+/* 09. IE SPECIFIC
+/* *********************************************************************************** */
+#foot_right{position: relative;}
+.top-footer{position: absolute;top: 0;right: 0;}
+#foot_right ul{position: absolute;top: 0;right: 50px;}
+
+/* *********************************************************************************** */
+/* 10. PAGES
+/* *********************************************************************************** */
+
+/*---------------------------------------------------------------*/
+/* 1. Homepage
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* 2. About
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* 3. ProductService
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* 4. Job Opportunity
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/* 5. Portfolio
+/*---------------------------------------------------------------*/
+.vertical-box {}
+.horizontal-box {}
+/*---------------------------------------------------------------*/
+/* 6. Contact
+/*---------------------------------------------------------------*/
+
+
+
+
+
+
